@@ -135,21 +135,31 @@ aside {
   }
   #paragraph1{
       text-align: center;
-      font-size: 18px;
+      font-size: 16px;
       font-family: Arial, Helvetica, sans-serif;
       padding: 5px;
       background-color: beige;
-      margin-left: 190px;
+      margin-left: 205px;
+      line-height: 1.2;
+      word-spacing: 2px;
   }
   #paragraph2{
       background-color: beige;
       text-align: center;
-      font-size: 18px;
+      font-size: 16px;
       font-family: Arial, Helvetica, sans-serif;
       padding: 10px;
-      margin-left: 190px;
+      margin-left: 205px;
       line-height: 1.2;
       word-spacing: 2px;
+  }
+  #paragraph3{
+    background-color: beige;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    line-height: 1.2;
+    word-spacing: 2px;
   }
   #divHello{
       text-align: left;
@@ -157,4 +167,3 @@ aside {
       font-size: large;
       text-transform: uppercase;
   }
-  
