@@ -2,7 +2,6 @@ section{
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
 }
 
 section > * {
@@ -89,10 +88,27 @@ header{
 nav a{
     text-decoration: none;
     color: aliceblue;
-    padding: 10px;
+    padding: 20px;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
+    transition: 0.7s all;
+    position: relative;
+
 }
+
+nav a:before{
+content: "";
+width: 30px;
+border-bottom: 5px solid white;
+bottom: 0;
+right: 100px;
+transition: 0.7s all;
+position: absolute;
+}
+nav a:hover:before{
+right: 0;
+}
+
 #link {
     font-size: 40px;
     color: aliceblue;
@@ -101,6 +117,7 @@ nav a{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 
 main{
     padding: 15px;
@@ -116,11 +133,16 @@ aside {
     padding: 30px;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
   }
   footer{
     flex-basis: 100%;
-    
     order: 4;
+    
+    height: 250px;
+    background-color: #271f1f;
+    
+    padding: 20px 20px 0 20px;
   }
   main img{
       width: 200px;
@@ -166,4 +188,7 @@ aside {
       font-weight: bold;
       font-size: large;
       text-transform: uppercase;
+  }
+  .example-1{
+      margin-top: 300px;
   }
