@@ -28,9 +28,11 @@ td{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+
 table{
     margin-top: 300px;
 }
+
 #h2table{
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,6 +42,7 @@ table{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #text {
     font-size: 40px;
     font-weight: bold;
@@ -56,9 +59,7 @@ table{
     text-align: center;
     margin-top: 10px;
     font-family: 'Lato', sans-serif;
-        
-    }
-
+}
 
 #id-1{
     text-align: left;
@@ -82,7 +83,6 @@ header{
     
 }
 
-
 .get{
     text-align: right;
     font-size: 14px;
@@ -96,7 +96,6 @@ nav a{
     font-family: 'Lato', sans-serif;
     transition: 0.7s all;
     position: relative;
-
 }
 
 nav a:before{
@@ -108,6 +107,7 @@ right: 100px;
 transition: 0.7s all;
 position: absolute;
 }
+
 nav a:hover:before{
 right: 0;
 }
@@ -121,42 +121,38 @@ right: 0;
     margin-bottom: 10px;
 }
 
-
 main{
     padding: 15px;
     text-align: left;
-    
     order: 2;
     flex-basis: 0;
 }
+
 aside {
     flex-basis: 300px;
     flex-grow: 0;
     order: 3;
     padding: 30px;
     font-size: 18px;
-    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 40px;
-
-    
     line-height: 1.2;
     word-spacing: 2px;
   }
+
   aside li{
     font-size: 16px;
-    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
   footer{
     flex-basis: 100%;
     order: 4;
-    
     height: 250px;
     background-color: #271f1f;
-    
     padding: 20px 20px 0 20px;
   }
+
   main img{
       width: 200px;
       float: left;
@@ -164,10 +160,11 @@ aside {
       transition: transform 1s, background-color 1s;
 
   }
+
   main img:hover{
-    
-      transform: scale(1.1) rotate(-45deg);
+    transform: scale(1.1) rotate(-45deg);
   }
+
   #paragraph1{
       text-align: center;
       font-size: 16px;
@@ -178,6 +175,7 @@ aside {
       line-height: 1.2;
       word-spacing: 2px;
   }
+
   #paragraph2{
       background-color: beige;
       text-align: center;
@@ -188,6 +186,7 @@ aside {
       line-height: 1.2;
       word-spacing: 2px;
   }
+
   #paragraph3{
     background-color: beige;
     font-size: 16px;
@@ -196,12 +195,14 @@ aside {
     line-height: 1.2;
     word-spacing: 2px;
   }
+
   #divHello{
       text-align: left;
       font-weight: bold;
       font-size: large;
       text-transform: uppercase;
   }
+
   .educationdiv{
     background-color: beige;
     font-size: 15px;
@@ -209,10 +210,9 @@ aside {
     padding: 10px;
     line-height: 1.2;
   }
+  
   #links{
-      padding: 100px;
-
-      
+    padding: 100px;
     font-size: 50px;
     color: aliceblue;
     text-align: left;
