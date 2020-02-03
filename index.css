@@ -133,13 +133,13 @@ main{
     flex-basis: 0;
 }
 
+
 aside {
     flex-basis: 300px;
     flex-grow: 0;
     order: 3;
     padding: 30px;
     margin-top: 10px;
-   
       
   }
   aside p{
@@ -147,7 +147,7 @@ aside {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 5px;
       background-color: beige;
-      
+     
       line-height: 1.7;
   }
 
@@ -170,7 +170,7 @@ aside {
   main img{
       width: 225px;
       float: left;
-      border-radius: 400px;
+      border-radius: 500px;
       transition: transform 1s, background-color 1s;
 
   }
