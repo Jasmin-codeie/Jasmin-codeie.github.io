@@ -9,7 +9,7 @@ section > * {
   }
 
 body{
-    margin-top: 0;
+    margin: 0;
     margin-left: 100px;
     margin-right: 100px;
     line-height: 1;
@@ -44,7 +44,7 @@ table{
 
 #hobbyid{
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #text {
@@ -130,6 +130,7 @@ main{
     text-align: left;
     order: 2;
     flex-basis: 0;
+    
 }
 
 aside {
@@ -138,22 +139,24 @@ aside {
     order: 3;
     padding: 30px;
     margin-top: 10px;
+   
       
   }
   aside p{
       font-size: 16px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 5px;
       background-color: beige;
-      line-height: 1.2;
-      word-spacing: 2px;
+      
+      line-height: 1.7;
   }
 
   aside li{
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.2;
-      word-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    word-spacing: 1px;
+    padding: 5px;
   }
 
   footer{
@@ -173,39 +176,33 @@ aside {
   }
 
   main img:hover{
-    transform: scale(1.1) rotate(-45deg);
+    transform:  rotate(-45deg);
   }
 
   #paragraph1{
-      text-align: center;
+      text-align: left;
       font-size: 16px;
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 5px;
-      background-color: beige;
-      margin-left: 205px;
-      line-height: 1.2;
-      word-spacing: 2px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+      margin-left: 250px;
+      line-height: 1.7;
   }
 
 
   #paragraph2{
-      background-color: beige;
-      text-align: center;
+      text-align: left;
       font-size: 16px;
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 10px;
-      margin-left: 205px;
-      line-height: 1.2;
-      word-spacing: 2px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+      margin-left: 250px;
+      line-height: 1.7;
   }
 
   #paragraph3{
-    background-color: beige;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
-    line-height: 1.2;
-    word-spacing: 2px;
+    line-height: 1.7;
   }
 
   #divHello{
@@ -213,14 +210,14 @@ aside {
       font-weight: bold;
       font-size: large;
       text-transform: uppercase;
+      margin-left: 250px;
   }
 
   .educationdiv{
-    background-color: beige;
     font-size: 15px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
-    line-height: 1.2;
+    line-height: 1.7;
   }
   
   #links{
