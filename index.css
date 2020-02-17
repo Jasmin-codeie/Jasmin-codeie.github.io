@@ -3,6 +3,9 @@ section{
     display: flex;
     flex-wrap: wrap;
 }
+@media (max-width:674px){
+   
+}
 
 section > * {
     flex-grow: 1;
@@ -141,20 +144,19 @@ aside {
     padding: 30px;
     margin-top: 10px;
       
-  }
-  aside p{
+}
+  
+aside p{
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 5px;
       background-color: beige;
-     
-      line-height: 1.7;
-  }
+     line-height: 1.7;
+}
 
   aside li{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
     word-spacing: 1px;
     padding: 5px;
   }
@@ -168,10 +170,10 @@ aside {
   }
 
   main img{
-      width: 225px;
-      float: left;
-      border-radius: 500px;
-      transition: transform 1s, background-color 1s;
+    width: 225px;
+    float: left;
+    border-radius: 500px;
+    transition: transform 1s, background-color 1s;
 
   }
 
@@ -188,29 +190,29 @@ aside {
       line-height: 1.7;
   }
 
-
-  #paragraph2{
+#paragraph2{
       text-align: left;
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       
       margin-left: 250px;
       line-height: 1.7;
-  }
+}
 
-  #paragraph3{
+#paragraph3{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     line-height: 1.7;
-  }
+}
 #coding{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     line-height: 1.7;
 }
-  #divHello{
+ 
+#divHello{
       text-align: left;
       font-weight: bold;
 
@@ -218,16 +220,17 @@ aside {
       text-transform: uppercase;
       margin-left: 245px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
 
-  .educationdiv{
+  
+.educationdiv{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     line-height: 1.7;
   }
   
-  #links{
+#links{
     padding: 100px;
     font-size: 50px;
     color: aliceblue;
@@ -237,4 +240,4 @@ aside {
     margin-bottom: 10px;
     margin-left: 150px;
       
-  }
+}
