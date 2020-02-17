@@ -9,7 +9,7 @@ section{
 
 section > * {
     flex-grow: 1;
-  }
+}
 
 body{
     margin: 0;
@@ -58,7 +58,7 @@ table{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 40px;
-    }
+}
 
 #text2{
     font-size: 20px ;
@@ -154,41 +154,41 @@ aside p{
      line-height: 1.7;
 }
 
-  aside li{
+aside li{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     word-spacing: 1px;
     padding: 5px;
-  }
+}
 
-  footer{
+footer{
     flex-basis: 100%;
     order: 4;
     height: 250px;
     background-color: #271f1f;
     padding: 20px 20px 0 20px;
-  }
+}
 
-  main img{
+main img{
     width: 225px;
     float: left;
     border-radius: 500px;
     transition: transform 1s, background-color 1s;
 
-  }
+}
 
-  main img:hover{
+main img:hover{
     transform:  rotate(-45deg);
-  }
+}
 
-  #paragraph1{
+#paragraph1{
       text-align: left;
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       
       margin-left: 250px;
       line-height: 1.7;
-  }
+}
 
 #paragraph2{
       text-align: left;
@@ -205,6 +205,7 @@ aside p{
     padding: 10px;
     line-height: 1.7;
 }
+
 #coding{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -228,7 +229,7 @@ aside p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     line-height: 1.7;
-  }
+}
   
 #links{
     padding: 100px;
