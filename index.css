@@ -172,7 +172,7 @@ footer{
 main img{
     width: 225px;
     float: left;
-    border-radius: 500px;
+    border-radius: 800px;
     transition: transform 1s, background-color 1s;
 
 }
