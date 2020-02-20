@@ -328,7 +328,7 @@ main img:hover{
     nav ul li{
         width: 100%;
         display: block;
-        font-size: 12px;
+        font-size: 13px;
     }
     nav ul li a{
         display: block;
@@ -370,5 +370,8 @@ main img:hover{
         position: relative;
         top: 30px;
         left: 50px;
+    }
+    nav ul a:hover{
+        border-bottom: 3px solid white;
     }
 }
