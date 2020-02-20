@@ -231,7 +231,7 @@ main img:hover{
 .menu-div{
     display: flex;
     justify-content: space-between;
-
+      margin-bottom: 100px;
 }
  
 #divHello{
@@ -332,6 +332,7 @@ main img:hover{
         width: 100%;
         display: block;
         font-size: 14px;
+        padding-top: 5px;
     }
     nav ul li a{
         display: block;
@@ -340,27 +341,32 @@ main img:hover{
     }
     
     .toggle-button{
+        max-width: 100px;
         text-align: center;
-        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         color: white;
         font-family: 'Lato', sans-serif;
+        margin-top: 40px;
+        
     }
     .toggle-button:after{
         content: attr(data-open);
         display: block;
     }
     #menu-checkbox:checked + nav ul{
-        display: block;
+       
     }
     #menu-checkbox:checked + nav .toggle-button:after{
-        display: block;
         content: attr(data-close);
+        display: block;
     }
     nav{
-        max-width: 200px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        margin-right: 10px;
     }
   
     #id-1{
@@ -382,4 +388,8 @@ main img:hover{
         display:block ;
         width: 100%;
     }
+
+}
+@media (max-width: 470px){
+    
 }
