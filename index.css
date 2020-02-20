@@ -2,9 +2,7 @@ section{
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-}
-@media (max-width:674px){
-   
+    justify-content: center;
 }
 
 section > * {
@@ -95,7 +93,13 @@ header{
     text-align: right;
     font-size: 14px;
 }
-
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
 nav a{
     text-decoration: none;
     color: aliceblue;
@@ -134,15 +138,18 @@ main{
     text-align: left;
     order: 2;
     flex-basis: 0;
+    max-width:700px;
 }
 
 
 aside {
-    flex-basis: 300px;
+    max-width: 300px;
+    min-width: 100px;
     flex-grow: 0;
     order: 3;
     padding: 30px;
     margin-top: 10px;
+    flex-wrap: wrap;
       
 }
   
@@ -167,10 +174,14 @@ footer{
     height: 250px;
     background-color: #271f1f;
     padding: 20px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 main img{
-    width: 225px;
+    min-width: 100px;
+    max-width: 225px;
     float: left;
     border-radius: 800px;
     transition: transform 1s, background-color 1s;
@@ -236,9 +247,94 @@ main img:hover{
     font-size: 50px;
     color: aliceblue;
     text-align: left;
-    margin-right: 100px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    margin-left: 150px;
       
+}
+@media(max-width:1170px){
+    main img{
+        width: 220px;
+    }
+    #paragraph2{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1096px){
+    body{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    main img{
+        width: 30%;
+        margin-left: 20px;
+    }
+    #paragraph1{
+        margin-left: 200px;
+    }
+    #paragraph2{
+        margin-left: 10px;
+    }
+}
+@media (max-width:880px){
+   
+    main img{
+        width: 40%;
+        margin-left: 20px;
+    }
+    #paragraph1{
+        margin-left: 220px;
+    }
+    #paragraph2{
+        margin-left: 10px;
+    }
+    #link, #id-1, #text, #text2{
+        font-size: 28px;
+    }
+    aside{
+        width:200px ;
+        margin-top: 0;
+    }
+}
+@media(max-width:730px){
+    aside{
+      width: 100%;  
+    padding: 10px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    }
+    main{
+        width: 100%;
+    }
+    table{
+        margin-top: 100px;
+    }
+    #paragraph1{
+        margin-left: 250px;
+    }
+    main img{
+        width: 40%;
+        margin-left: 10px;
+    }
+
+}
+@media (max-width:690px){
+    .get{
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+    nav ul li a{
+        display: block;
+        padding: 8px;
+    }
+    .toggle-button{
+        text-align: center;
+        display: block;
+        color: white;
+        font-family: 'Lato', sans-serif;
+    }
+    .toggle-button:after{
+        content: attr(data-open);
+    }
 }
