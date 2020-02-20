@@ -101,7 +101,8 @@ header{
 
 nav ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 nav ul li{
     list-style: none;
@@ -231,22 +232,17 @@ main img:hover{
 .menu-div{
     display: flex;
     justify-content: space-between;
-      margin-bottom: 100px;
+    margin-bottom: 100px;
 }
  
 #divHello{
       text-align: left;
       font-weight: bold;
-
       font-size: 16px;
       text-transform: uppercase;
       margin-left: 245px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#menu-checkbox{
-        display: none;
-    }
-  
 .educationdiv{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -310,7 +306,6 @@ main img:hover{
       width: 100%;  
     padding: 10px;
     margin-top: 5px;
-    flex-wrap: wrap;
     }
     main{
         width: 100%;
@@ -325,9 +320,6 @@ main img:hover{
         width: 40%;
         margin-left: 10px;
     }
-    .get{
-        display: none;
-    }
     nav ul li{
         width: 100%;
         display: block;
@@ -340,31 +332,7 @@ main img:hover{
         margin-right: 15px;
     }
     
-    .toggle-button{
-        max-width: 100px;
-        text-align: center;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        color: white;
-        font-family: 'Lato', sans-serif;
-        margin-top: 40px;
-        
-    }
-    .toggle-button:after{
-        content: attr(data-open);
-        display: block;
-    }
-    #menu-checkbox:checked + nav ul{
-       
-    }
-    #menu-checkbox:checked + nav .toggle-button:after{
-        content: attr(data-close);
-        display: block;
-    }
     nav{
-        display: flex;
-        justify-content: flex-end;
         align-items: center;
         margin-right: 10px;
     }
@@ -391,5 +359,10 @@ main img:hover{
 
 }
 @media (max-width: 470px){
-    
+    .text-div{
+        max-width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
 }
