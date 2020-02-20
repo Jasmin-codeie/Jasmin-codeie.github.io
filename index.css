@@ -93,6 +93,7 @@ header{
     text-align: right;
     font-size: 14px;
 }
+
 nav ul{
     display: flex;
     justify-content: flex-end;
@@ -167,7 +168,6 @@ aside li{
     word-spacing: 1px;
     padding: 5px;
 }
-
 footer{
     flex-basis: 100%;
     order: 4;
@@ -233,7 +233,9 @@ main img:hover{
       margin-left: 245px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#menu-checkbox{
+        display: none;
+    }
   
 .educationdiv{
     font-size: 16px;
@@ -328,6 +330,7 @@ main img:hover{
         display: block;
         padding: 8px;
     }
+    
     .toggle-button{
         text-align: center;
         display: block;
@@ -336,5 +339,25 @@ main img:hover{
     }
     .toggle-button:after{
         content: attr(data-open);
+        display: block;
+    }
+    #menu-checkbox:checked + nav ul{
+        display: block;
+    }
+    #menu-checkbox:checked + nav .toggle-button:after{
+        display: block;
+        content: attr(data-close);
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #text{
+        margin-top: 10px;
+    }
+    
+    #id-1{
+    margin-left: 0;
     }
 }
