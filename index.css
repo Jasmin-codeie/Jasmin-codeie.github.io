@@ -55,7 +55,7 @@ table{
     color: aliceblue;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin-top: 20px;
 }
 .menu-div{
     height: 30px;
@@ -370,8 +370,5 @@ main img:hover{
         position: relative;
         top: 30px;
         left: 50px;
-    }
-    nav ul a:hover{
-        border-bottom: 3px solid white;
     }
 }
