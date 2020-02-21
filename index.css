@@ -203,7 +203,6 @@ main img:hover{
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       
-      margin-left: 250px;
       line-height: 1.7;
 }
 
@@ -211,7 +210,7 @@ main img:hover{
       text-align: left;
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      
+      clear: left;
       margin-left: 250px;
       line-height: 1.7;
 }
@@ -274,9 +273,6 @@ main img:hover{
         width: 30%;
         margin-left: 20px;
     }
-    #paragraph1{
-        margin-left: 200px;
-    }
     #paragraph2{
         margin-left: 10px;
     }
@@ -286,9 +282,6 @@ main img:hover{
     main img{
         width: 40%;
         margin-left: 20px;
-    }
-    #paragraph1{
-        margin-left: 220px;
     }
     #paragraph2{
         margin-left: 10px;
@@ -349,10 +342,6 @@ main img:hover{
         margin-left: 30px;
         margin-right: 30px;
     }
-    nav{
-        max-width: 200px;
-        
-    }
     nav ul{
         display: block;
     }
@@ -374,14 +363,26 @@ main img:hover{
 @media (max-width: 470px){
     .menu-div{
         display: flex;
+        flex-direction: column;
         
     }
-    .text-div{
-        flex-basis: 100%;
-        flex-grow: 1;
+    nav ul li{
+        padding-right: 40px;
+        padding-top: 20px;
     }
-    nav{
-        flex-basis: 100%;
-        flex-grow: 0;
+    #text {
+        margin-top: 150px;
+        font-size: 18px;
+    }
+    nav ul{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    #text2{
+        font-size: 18px;
+    }
+    .divvtext{
+        width: 100%;
+        margin: 0;
     }
 }
