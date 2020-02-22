@@ -9,6 +9,8 @@ section > * {
     flex-grow: 1;
 }
 
+
+
 body{
     margin: 0;
     margin-left: 100px;
@@ -185,24 +187,23 @@ footer{
     
 }
 
-main img{
+aside img{
     min-width: 100px;
-    max-width: 225px;
-    float: left;
+    max-width: 200px;
     border-radius: 800px;
     transition: transform 1s, background-color 1s;
 
 }
 
-main img:hover{
+aside img:hover{
     transform:  rotate(-45deg);
 }
 
 #paragraph1{
+      margin-left: 220px;
       text-align: left;
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      
       line-height: 1.7;
 }
 
@@ -211,8 +212,8 @@ main img:hover{
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       clear: left;
-      margin-left: 250px;
       line-height: 1.7;
+
 }
 
 #paragraph3{
@@ -234,14 +235,6 @@ main img:hover{
     margin-bottom: 100px;
 }
  
-#divHello{
-      text-align: left;
-      font-weight: bold;
-      font-size: 16px;
-      text-transform: uppercase;
-      margin-left: 245px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .educationdiv{
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -257,21 +250,18 @@ main img:hover{
       
 }
 @media(max-width:1170px){
-    main img{
+    aside img{
         width: 220px;
     }
-    #paragraph2{
-        flex-wrap: wrap;
-    }
+
 }
 @media (max-width:1096px){
     body{
         margin-left: 50px;
         margin-right: 50px;
     }
-    main img{
+    aside img{
         width: 30%;
-        margin-left: 20px;
     }
     #paragraph2{
         margin-left: 10px;
@@ -279,7 +269,7 @@ main img:hover{
 }
 @media (max-width:880px){
    
-    main img{
+    aside img{
         width: 40%;
         margin-left: 20px;
     }
@@ -308,10 +298,6 @@ main img:hover{
     }
     #paragraph1{
         margin-left: 250px;
-    }
-    main img{
-        width: 40%;
-        margin-left: 10px;
     }
     nav ul li{
         font-size: 14px;
@@ -350,7 +336,7 @@ main img:hover{
     }
 }
 @media (max-width:550px){
-    main img{
+    aside img{
         width: 600px;
         
     }
@@ -380,9 +366,5 @@ main img:hover{
     }
     #text2{
         font-size: 18px;
-    }
-    .divvtext{
-        width: 100%;
-        margin: 0;
     }
 }
