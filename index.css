@@ -18,7 +18,7 @@ body{
     line-height: 1;
     background-color:#271f1f ;
 }
-.education{
+.mainthemes{
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
@@ -44,12 +44,6 @@ table{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#hobbyid{
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 #text {
     font-size: 40px;
@@ -200,7 +194,6 @@ aside img:hover{
 }
 
 #paragraph1{
-      margin-left: 220px;
       text-align: left;
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -295,9 +288,6 @@ aside img:hover{
     }
     table{
         margin-top: 100px;
-    }
-    #paragraph1{
-        margin-left: 250px;
     }
     nav ul li{
         font-size: 14px;
