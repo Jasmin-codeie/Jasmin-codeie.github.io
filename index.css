@@ -83,7 +83,7 @@ table{
 header{
     order: 1;
     flex-basis: 100%;
-    height: 250px;
+    height: 280px;
     background-color: #271f1f;
     
     padding: 20px 20px 0 20px;
@@ -150,8 +150,7 @@ aside {
     min-width: 100px;
     flex-grow: 0;
     order: 3;
-    padding: 30px;
-    margin-top: 10px;
+    padding: 20px 30px;
     flex-wrap: wrap;
       
 }
@@ -185,55 +184,28 @@ aside img{
     min-width: 100px;
     max-width: 200px;
     border-radius: 800px;
-    transition: transform 1s, background-color 1s;
-
+    transition: transform 1s;
+    margin-left: 50px;
+    
 }
 
 aside img:hover{
-    transform:  rotate(-45deg);
+    transform: rotate(-10deg)  scale(1.1) ;
 }
 
-#paragraph1{
+#paragraph{
       text-align: left;
       font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.7;
 }
 
-#paragraph2{
-      text-align: left;
-      font-size: 16px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      clear: left;
-      line-height: 1.7;
-
-}
-
-#paragraph3{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    line-height: 1.7;
-}
-
-#coding{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    line-height: 1.7;
-}
 .menu-div{
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
 }
  
-.educationdiv{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    line-height: 1.7;
-}
   
 #links{
     padding: 100px;
@@ -278,13 +250,9 @@ aside img:hover{
     }
 }
 @media (max-width:740px){
-    aside{
-      width: 100%;  
+    aside{  
     padding: 10px;
     margin-top: 5px;
-    }
-    main{
-        width: 100%;
     }
     table{
         margin-top: 100px;
@@ -327,27 +295,39 @@ aside img:hover{
 }
 @media (max-width:550px){
     aside img{
-        width: 600px;
-        
+        width: 70%;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    footer{
+        display: flex;
+         justify-content: space-around;
+         height: 100px;
+    }
+    #links{
+        margin-top: 20px;
+        padding: 0;
+        font-size: 30px;
+       
     }
     #divhello{
         display:block ;
         width: 100%;
     }
-
-}
-@media (max-width: 470px){
     .menu-div{
         display: flex;
         flex-direction: column;
         
+    }
+    body{
+        margin: 0 10px;
     }
     nav ul li{
         padding-right: 40px;
         padding-top: 20px;
     }
     #text {
-        margin-top: 150px;
+        margin-top: 180px;
         font-size: 18px;
     }
     nav ul{
@@ -356,5 +336,12 @@ aside img:hover{
     }
     #text2{
         font-size: 18px;
+    }
+    aside{
+        flex-basis: 100%;
+        padding-bottom: 20px;
+    }
+    main{
+        flex-basis: 100%;
     }
 }
