@@ -43,7 +43,7 @@ table{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#text {
+.text {
     font-size: 40px;
     font-weight: bold;
     color: aliceblue;
@@ -58,7 +58,7 @@ table{
     margin-bottom: 80px;
 }
 
-#text2{
+.text2{
     font-size: 20px ;
     text-transform: uppercase;
     color: azure;
@@ -344,7 +344,7 @@ aside img:hover{
         padding-top: 20px;
     }
 
-    #text {
+    .text {
         margin-top: 180px;
         font-size: 18px;
     }
@@ -354,7 +354,7 @@ aside img:hover{
         margin-top: 0;
     }
 
-    #text2{
+    .text2{
         font-size: 18px;
     }
 
@@ -362,7 +362,7 @@ aside img:hover{
         flex-basis: 100%;
         padding-bottom: 20px;
     }
-    
+
     main{
         flex-basis: 100%;
     }
