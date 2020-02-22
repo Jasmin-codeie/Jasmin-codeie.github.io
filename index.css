@@ -194,7 +194,7 @@ aside img:hover{
     transform: rotate(-10deg)  scale(1.1) ;
 }
 
-#paragraph{
+.paragraph{
     text-align: left;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -231,9 +231,6 @@ aside img:hover{
         width: 30%;
     }
 
-    #paragraph2{
-        margin-left: 10px;
-    }
 }
 @media (max-width:880px){
    
@@ -242,11 +239,7 @@ aside img:hover{
         margin-left: 20px;
     }
 
-    #paragraph2{
-        margin-left: 10px;
-    }
-
-    #link, #id-1, #text, #text2{
+    #link, .id-1, .text, .text2{
         font-size: 28px;
     }
 
@@ -280,7 +273,7 @@ aside img:hover{
         align-items: center;
     }
   
-    #id-1{
+    .id-1{
     margin-left: 0;
     font-size: 19px;
     }
