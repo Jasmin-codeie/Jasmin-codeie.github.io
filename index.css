@@ -82,7 +82,7 @@ table{
 header{
     order: 1;
     flex-basis: 100%;
-    height: 280px;
+    height: 250px;
     background-color: #271f1f;
     padding: 20px 20px 0 20px;
     
@@ -360,5 +360,8 @@ aside img:hover{
 
     main{
         flex-basis: 100%;
+    }
+    header{
+        height: 320px;
     }
 }
