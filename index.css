@@ -217,28 +217,19 @@ aside img:hover{
       
 }
 
-@media(max-width:1170px){
-    aside img{
-        width: 220px;
-    }
-
-}
 @media (max-width:1096px){
     body{
         margin-left: 50px;
         margin-right: 50px;
     }
 
-    aside img{
-        width: 30%;
-    }
-
 }
 @media (max-width:880px){
    
     aside img{
-        width: 40%;
-        margin-left: 20px;
+        margin-left:70px;
+        min-width: 100px;
+    max-width: 200px;
     }
 
     #link, .id-1, .text, .text2{
@@ -246,16 +237,32 @@ aside img:hover{
     }
 
     aside{
-        width:200px ;
+        width: 200 ;
         margin-top: 0;
     }
 }
-@media (max-width:740px){
+
+@media (max-width:750px){
     aside{  
     padding: 10px;
     margin-top: 5px;
     }
+    .text {
+        margin-top: 180px;
+        font-size: 25px;
+    }
 
+    aside{
+        flex-basis: 100%;
+        padding-bottom: 20px;
+    }
+
+    main{
+        flex-basis: 100%;
+    }
+    header{
+        height: 320px;
+    }
     table{
         margin-top: 100px;
     }
@@ -275,6 +282,11 @@ aside img:hover{
         align-items: center;
     }
   
+    .menu-div{
+        display: flex;
+        flex-direction: column;
+    }
+
     .id-1{
     margin-left: 0;
     font-size: 19px;
@@ -285,21 +297,17 @@ aside img:hover{
         top: 30px;
     }
 }
-@media (max-width:620px){
+@media (max-width:660px){
     body{
         margin-left: 30px;
         margin-right: 30px;
-    }
-
-    nav ul{
-        display: block;
     }
 
     nav ul li{
         padding-bottom: 8px;
     }
 }
-@media (max-width:550px){
+@media (max-width:660px){
     aside img{
         width: 70%;
         margin-left: 40px;
@@ -323,13 +331,7 @@ aside img:hover{
         display:block ;
         width: 100%;
     }
-
-    .menu-div{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
+   
     body{
         margin: 0 10px;
     }
@@ -353,15 +355,4 @@ aside img:hover{
         font-size: 18px;
     }
 
-    aside{
-        flex-basis: 100%;
-        padding-bottom: 20px;
-    }
-
-    main{
-        flex-basis: 100%;
-    }
-    header{
-        height: 320px;
-    }
 }
