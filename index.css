@@ -356,3 +356,11 @@ aside img:hover{
     }
 
 }
+@media (max-width:420px){
+   
+    body{
+        margin: 0 10px;
+    }
+
+
+}
