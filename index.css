@@ -14,7 +14,7 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   line-height: 1;
-  background-color: linear-gradient(#e66465, #9198e5);
+  background-color: white;
 }
 .mainthemes {
   font-weight: bold;
@@ -82,7 +82,7 @@ header {
   order: 1;
   flex-basis: 100%;
   height: 250px;
-  background-color: #271f1f;
+  background-color: rgba(0, 0, 0, 0.781);
   padding: 20px 20px 0 20px;
 }
 hr {
@@ -173,7 +173,7 @@ footer {
   flex-basis: 100%;
   order: 4;
   height: 250px;
-  background-color: #271f1f;
+  background-color: rgba(0, 0, 0, 0.781);
   padding: 20px 20px 0 20px;
   display: flex;
   justify-content: space-between;
